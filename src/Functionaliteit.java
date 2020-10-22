@@ -2,11 +2,8 @@ import java.util.Scanner;
 public class Functionaliteit {
 int snelheid = 0;
 int kilometerstand = 23000;
-int merk=toyota();
+int toyota;
 
-    private int toyota() {
-        return 0;
-    }
 
     public void main(String[] args){
     start();
@@ -15,14 +12,14 @@ int merk=toyota();
 
 }
     void start(){
-        System.out.println( "De "+merk+" start.");
+        System.out.println( "De "+toyota+" start.");
 }
     void geeftgas(){
-        System.out.println( "De "+merk+" +geeftgas.");
+        System.out.println( "De "+toyota+" +geeftgas.");
 }
 
     void stopt() {
-        System.out.println("De "+merk+" stopt.");
+        System.out.println("De "+toyota+" stopt.");
 }
 
 }
